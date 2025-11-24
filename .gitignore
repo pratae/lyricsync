@@ -1,0 +1,40 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android / Gradle
+**/build/
+.gradle/
+local.properties
+.cxx/
+captures/
+.externalNativeBuild/
+*/.gradle/
+*/local.properties
+
+# Node (just in case)
+node_modules/
+
