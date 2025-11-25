@@ -457,7 +457,7 @@ class LyricOverlay(QWidget):
         tinted.fill(Qt.transparent)
         painter = QPainter(tinted)
         painter.fillRect(tinted.rect(), color)
-        painter.setCompositionMode(QPainter.CompositionMode.DestinationIn)
+        painter.setCompositionMode(QPainter.CompositionMode_DestinationIn)
         painter.drawPixmap(0, 0, pixmap)
         painter.end()
         return QIcon(tinted)
